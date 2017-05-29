@@ -1,0 +1,22 @@
+{
+  "name": "youtube-audio-dl",
+  "version": "0.0.0",
+  "description": "YouTube audio downloader in JavaScript",
+  "main": "dist/bundle.js",
+  "files": [
+    "dist"
+  ],
+  "repository": "git@github.com:kevinzg/youtube-audio-dl.git",
+  "author": "Kevin Zúñiga <kevin.zun@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^2.6.1"
+  }
+}
