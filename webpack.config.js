@@ -26,7 +26,8 @@ const config = {
   resolve: {
     modules: [path.resolve(__dirname, 'src')],
     extensions: ['.js', '.json']
-  }
+  },
+  devtool: 'source-map'
 };
 
 module.exports = config;
