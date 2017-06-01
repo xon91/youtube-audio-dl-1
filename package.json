@@ -23,5 +23,8 @@
     "eslint-loader": "^1.7.1",
     "jest": "^20.0.4",
     "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.1"
   }
 }
